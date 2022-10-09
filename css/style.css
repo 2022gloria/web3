@@ -6,6 +6,9 @@
     --color3: #FA6672;
     --color4: #32DBA2;
     --color5: #B096E0;
+    --color6: #FBC890;
+    --color7: #90FBF9;
+    --color8: #F58580;
     --color-blanco: #FFFFFF;
     --color-negro: #000000;
     --color-gris-claro: #CCCCCC;
@@ -61,6 +64,22 @@ h3{
 
 #nosotros{ /* Así se aplica formato a un objeto por su id */
     background-color: var(--color2);
+}
+
+#brecha_de_genero{ /* Así se aplica formato a un objeto por su id */
+    background-color: var(--color5);
+}
+
+#importancia_habilidades{ /* Así se aplica formato a un objeto por su id */
+    background-color: var(--color6);
+}
+
+#reduccion_brecha{ /* Así se aplica formato a un objeto por su id */
+    background-color: var(--color7);
+}
+
+#roles_genero{ /* Así se aplica formato a un objeto por su id */
+    background-color: var(--color8);
 }
 
 #noticias{
